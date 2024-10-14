@@ -1,0 +1,817 @@
+{
+    "regmet": [
+        {
+            "id": 1,
+            "nome": "Abreu e Lima",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 2,
+            "nome": "Araçoiaba",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 3,
+            "nome": "Cabo de Santo Agostinho",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 4,
+            "nome": "Camaragibe",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 5,
+            "nome": "Igarassu",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 6,
+            "nome": "Ilha de Itamaracá",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 7,
+            "nome": "Ipojuca",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 8,
+            "nome": "Itapissuma",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 9,
+            "nome": "Jaboatão dos Guararapes",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 10,
+            "nome": "Moreno",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 11,
+            "nome": "Olinda",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 12,
+            "nome": "Paulista",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 13,
+            "nome": "Recife",
+            "regiao": "Metropolitana"
+        },
+        {
+            "id": 14,
+            "nome": "São Lourenço da Mata",
+            "regiao": "Metropolitana"
+        }
+    ],
+    "regiaoagreste": [
+        {
+            "id": 15,
+            "nome": "Agrestina",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 16,
+            "nome": "Alagoinha",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 17,
+            "nome": "Altinho",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 18,
+            "nome": "Barra de Guabiraba",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 19,
+            "nome": "Belo Jardim",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 20,
+            "nome": "Bezerros",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 21,
+            "nome": "Bonito",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 22,
+            "nome": "Brejo da Madre de Deus",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 23,
+            "nome": "Cachoeirinha",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 24,
+            "nome": "Camocim de São Felix",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 25,
+            "nome": "Caruaru",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 26,
+            "nome": "Cupira",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 27,
+            "nome": "Gravatá",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 28,
+            "nome": "Ibirajuba",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 29,
+            "nome": "Jatáuba",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 30,
+            "nome": "Lagoa dos Gatos",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 31,
+            "nome": "Panelas",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 32,
+            "nome": "Pesqueira",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 33,
+            "nome": "Poção",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 34,
+            "nome": "Pombos",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 35,
+            "nome": "Riacho das Almas",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 36,
+            "nome": "Sairé",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 37,
+            "nome": "Sanharó",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 38,
+            "nome": "São Bento do Una",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 39,
+            "nome": "São Caitano",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 40,
+            "nome": "São Joaquim do Monte",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 41,
+            "nome": "São Lourenço da Mata",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 42,
+            "nome": "Tacaimbó",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 43,
+            "nome": "Águas Belas",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 44,
+            "nome": "Angelim",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 45,
+            "nome": "Bom Conselho",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 46,
+            "nome": "Brejão",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 47,
+            "nome": "Buíque",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 48,
+            "nome": "Caetés",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 49,
+            "nome": "Calçado",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 50,
+            "nome": "Canhotinho",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 51,
+            "nome": "Capoeiras",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 52,
+            "nome": "Correntes",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 53,
+            "nome": "Garanhuns",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 54,
+            "nome": "Iati",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 55,
+            "nome": "Itaíba",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 56,
+            "nome": "Jucatí",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 57,
+            "nome": "Jupi",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 58,
+            "nome": "Jurema",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 59,
+            "nome": "Lagoa do Ouro",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 60,
+            "nome": "Lajedo",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 61,
+            "nome": "Palmeirina",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 62,
+            "nome": "Paranatama",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 63,
+            "nome": "Pedra",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 64,
+            "nome": "Saloá",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 65,
+            "nome": "São João",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 66,
+            "nome": "Terezinha",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 67,
+            "nome": "Tupanatinga",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 68,
+            "nome": "Venturosa",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 69,
+            "nome": "Bom Jardim",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 70,
+            "nome": "Casinhas",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 71,
+            "nome": "Cumaru",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 72,
+            "nome": "Feira Nova",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 73,
+            "nome": "Frei Miguelinho",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 74,
+            "nome": "João Alfredo",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 75,
+            "nome": "Limoeiro",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 76,
+            "nome": "Machados",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 77,
+            "nome": "Orobó",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 78,
+            "nome": "Passira",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 79,
+            "nome": "Salgadinho",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 80,
+            "nome": "Santa Cruz do Capibaribe",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 81,
+            "nome": "Santa Maria do Cambucá",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 82,
+            "nome": "São Vicente Férrer",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 83,
+            "nome": "Surubim",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 84,
+            "nome": "Taquaritinga do Norte",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 85,
+            "nome": "Toritama",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 86,
+            "nome": "Vertente do Lério",
+            "regiao": "Agreste"
+        },
+        {
+            "id": 87,
+            "nome": "Vertentes",
+            "regiao": "Agreste"
+        }
+    ],
+    "regiaozonadamatanorte": [
+        {
+            "id": 88,
+            "nome": "Aliança",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 89,
+            "nome": "Buenos Aires",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 90,
+            "nome": "Camutanga",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 91,
+            "nome": "Carpina",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 92,
+            "nome": "Chã de Alegria",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 93,
+            "nome": "Condado",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 94,
+            "nome": "Ferreiros",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 95,
+            "nome": "Glória do Goitá",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 96,
+            "nome": "Goiana",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 97,
+            "nome": "Itambé",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 98,
+            "nome": "Itaquitinga",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 99,
+            "nome": "Lagoa do Carro",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 100,
+            "nome": "Lagoa de Itaenga",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 101,
+            "nome": "Macaparana",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 102,
+            "nome": "Nazaré da Mata",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 103,
+            "nome": "Paudalho",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 104,
+            "nome": "Timbaúba",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 105,
+            "nome": "Tracunhaém",
+            "regiao": "Zona da Mata Norte"
+        },
+        {
+            "id": 106,
+            "nome": "Vicência",
+            "regiao": "Zona da Mata Norte"
+        }
+    ],
+    "regiaozonadamatasul": [
+        {
+            "id": 107,
+            "nome": "Água Preta",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 108,
+            "nome": "Amaraji",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 109,
+            "nome": "Barreiros",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 110,
+            "nome": "Belém de Maria",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 111,
+            "nome": "Catende",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 112,
+            "nome": "Chã Grande",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 113,
+            "nome": "Cortes",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 114,
+            "nome": "Escada",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 115,
+            "nome": "Gameleira",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 116,
+            "nome": "Jaqueira",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 117,
+            "nome": "Joaquim Nabuco",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 118,
+            "nome": "Maraial",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 119,
+            "nome": "Palmares",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 120,
+            "nome": "Primavera",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 121,
+            "nome": "Quipapá",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 122,
+            "nome": "Ribeirão",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 123,
+            "nome": "Rio Formoso",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 124,
+            "nome": "São Benedito do Sul",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 125,
+            "nome": "Sirinhaém",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 126,
+            "nome": "São José da Coroa Grande",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 127,
+            "nome": "Tamandaré",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 128,
+            "nome": "Vitória de Santo Antão",
+            "regiao": "Zona da Mata Sul"
+        },
+        {
+            "id": 129,
+            "nome": "Xexéu",
+            "regiao": "Zona da Mata Sul"
+        }
+    ],
+    "regiaosertao": [
+        {
+            "id": 130,
+            "nome": "Cedro",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 131,
+            "nome": "Mirandiba",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 132,
+            "nome": "Parnamirim",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 133,
+            "nome": "Salgueiro",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 134,
+            "nome": "São José do Belmonte",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 135,
+            "nome": "Serrita",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 136,
+            "nome": "Terra Nova",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 137,
+            "nome": "Verdejante",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 138,
+            "nome": "Belém de São Francisco",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 139,
+            "nome": "Carnaubeira da Penha",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 140,
+            "nome": "Floresta",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 141,
+            "nome": "Itacuruba",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 142,
+            "nome": "Jatobá",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 143,
+            "nome": "Petrolândia",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 144,
+            "nome": "Tacaratu",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 145,
+            "nome": "Araripina",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 146,
+            "nome": "Bodoco",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 147,
+            "nome": "Exu",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 148,
+            "nome": "Granito",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 149,
+            "nome": "Ipubi",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 150,
+            "nome": "Moreilândia",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 151,
+            "nome": "Ouricuri",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 152,
+            "nome": "Santa Cruz",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 153,
+            "nome": "Santa Filomena",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 154,
+            "nome": "Trindade",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 155,
+            "nome": "Arcoverde",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 156,
+            "nome": "Betânia",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 157,
+            "nome": "Custódia",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 158,
+            "nome": "Ibimirim",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 159,
+            "nome": "Inajá",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 160,
+            "nome": "Manari",
+            "regiao": "Sertão"
+        },
+        {
+            "id": 161,
+            "nome": "Sertânia",
+            "regiao": "Sertão"
+        }
+    ]
+}
