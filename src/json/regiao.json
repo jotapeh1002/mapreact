@@ -1,5 +1,5 @@
 {
-    "regmet": [
+    "reg": [
         {
             "id": 1,
             "nome": "Abreu e Lima",
@@ -69,9 +69,7 @@
             "id": 14,
             "nome": "São Lourenço da Mata",
             "regiao": "Metropolitana"
-        }
-    ],
-    "regiaoagreste": [
+        },
         {
             "id": 15,
             "nome": "Agrestina",
@@ -436,9 +434,7 @@
             "id": 87,
             "nome": "Vertentes",
             "regiao": "Agreste"
-        }
-    ],
-    "regiaozonadamatanorte": [
+        },
         {
             "id": 88,
             "nome": "Aliança",
@@ -533,9 +529,7 @@
             "id": 106,
             "nome": "Vicência",
             "regiao": "Zona da Mata Norte"
-        }
-    ],
-    "regiaozonadamatasul": [
+        },
         {
             "id": 107,
             "nome": "Água Preta",
@@ -650,9 +644,7 @@
             "id": 129,
             "nome": "Xexéu",
             "regiao": "Zona da Mata Sul"
-        }
-    ],
-    "regiaosertao": [
+        },
         {
             "id": 130,
             "nome": "Cedro",
