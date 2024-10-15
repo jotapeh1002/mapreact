@@ -23,7 +23,7 @@ export function App() {
 
     <div className="h-full" >
 
-      <Navbar handleSuggestionClick={atualizarDados}/>
+      <Navbar cidadeSelecionada={atualizarDados}/>
       
       <div className=' flex'>
         <Cards title={'q'} cardImages={ubsImage} result={'10'}/>

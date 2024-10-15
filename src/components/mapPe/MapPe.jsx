@@ -3,19 +3,22 @@ import { useEffect, useRef, useState } from 'react'
 
 export function MapPe({ dadosOBJ, recDados }) {
 
-    // alert(recDados)
-
     const svgRef = useRef(null)
     const selectRef = useRef(null)
     const [pathMap, setpathMap] = useState(null)
+    const [recDadosValue, setRecDados] = useState(null)
     const [selectValue, setSelectValue] = useState(null);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [popupContent, setPopupContent] = useState('');
 
-    useEffect(() => {
-        
-        if (svgRef.current) {
+    useEffect(() =>{
+        setRecDados(recDados) //ta guardando o valor antigo
+        alert(recDadosValue)
+    },[recDados])
 
+    useEffect(() => {
+
+        if (svgRef.current) {
             fetch(Mapasvg)
                 .then(response => response.text())
                 .then(dataSvg => {
