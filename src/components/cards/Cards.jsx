@@ -1,7 +1,7 @@
 
-export function Cards({cardImages, title, result}){
+export function Cards({cardImages, title, result , width = 'w-72'}){
     return(
-        <div className="flex flex-col justify-center border-l-8 m-5 border-blue-500 rounded-xl p-3 w-72 bg-neutral-300">
+        <div className={`flex flex-col justify-center border-l-8 my-3 border-blue-500 rounded-xl p-3 ${width} bg-neutral-300`}>
             <div className="flex items-center  pr-3 justify-between">
                 <div> <img className="" src={cardImages} width="70px" alt=""/></div>
                 <div className="flex flex-col items-end">

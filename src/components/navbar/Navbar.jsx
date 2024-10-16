@@ -35,9 +35,6 @@ export function Navbar({ cidadeSelecionada }) {
     }, []);
 
 
-    //!FALTA IMPLEMENTAR A LOGICA PRA FECHAR A APARADA ASSIM QUE ELA NAO FOR MAIS O FOCO
-
-
     const showSuggestions = (value) => {
 
         setInputValue(value)
@@ -70,7 +67,7 @@ export function Navbar({ cidadeSelecionada }) {
                 <img src={logoMarques} alt="Logo" width="150px" />
                 <div className="flex-col flex items-center">
                     <div className="search-container" style={{ position: 'relative', width: '300px' }}>
-                        <input
+                        <input onBlur={() => showSuggestions('')}
                             className="text-gray-600 border-2 hover:border-blue-400 z-50 outline-none rounded-full h-8 w-60 bg-opacity-30 mx-11 px-4"
                             type="text"
                             ref={refInput}
@@ -79,7 +76,8 @@ export function Navbar({ cidadeSelecionada }) {
                             placeholder="Pesquisar..."
                         />
                         {filteredSuggestions.length > 0 && (
-                            <div className="text-sm min-w-[240px] max-w-[240px] max-h-52 overflow-x-hidden absolute bg-white border translate-x-[44px] rounded-b-xl">
+                            <div 
+                            className="text-sm min-w-[240px] max-w-[240px] shadow-md max-h-52 overflow-x-hidden absolute bg-white border translate-x-[44px] rounded-b-xl">
                                 {filteredSuggestions.map((suggestion, index) => (
                                     <div
                                         key={index}
