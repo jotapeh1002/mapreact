@@ -9,8 +9,8 @@ export function Navbar({ cidadeSelecionada }) {
     const refInput = useRef();
     const refDiv = useRef();
 
-    useEffect(() => { //* executa assim que a pagina renderizar 
-        const fetchData = async () => { //* busca no jason as cidades
+    useEffect(() => { 
+        const fetchData = async () => { 
             try {
                 const response = await fetch('./src/json/populacao.json');
                 const data = await response.json();
@@ -51,7 +51,7 @@ export function Navbar({ cidadeSelecionada }) {
         }
 
         const filtered = suggestionsData.filter(suggestion =>
-            suggestion.toLowerCase().includes(value.toLowerCase())
+            suggestion.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(value.toLowerCase())
         )
 
         setFilteredSuggestions(filtered);

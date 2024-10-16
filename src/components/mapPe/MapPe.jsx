@@ -119,12 +119,19 @@ export function MapPe({ dadosOBJ, recDados }) {
                                         let nomes = data.municipio.find((muni) => {
                                             if (muni !== null) { return muni.city == ar }
                                         })
+
+                                        let dadospopu = nomes.populacao.toLocaleString('pt-BR')
+
+                                        let dadosvalorFor = parseFloat(nomes.valoranual.replace(/\./g, '').replace(',', '.'))
+
+                                        let dadosvalor = dadosvalorFor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
                                         dadosOBJ({
                                             municipio: nomes.city,
-                                            populacao: nomes.populacao,
+                                            populacao: dadospopu,
                                             empresa: nomes.empresa,
                                             descricao: nomes.descricao,
-                                            valoranual: nomes.valoranual,
+                                            valoranual: dadosvalor,
                                             fimdocontrato: nomes.fimdocontrato,
                                             ubs: nomes.ubs
                                         })
@@ -149,7 +156,7 @@ export function MapPe({ dadosOBJ, recDados }) {
 
                             if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
                                 selectValue !== 'agreste' && selectValue !== 'sertao') {
-                                    search()
+                                search()
                             }
                             else {
                                 if (selectValue === 'metropolitana' && regioes.metropolitana.includes(recDados)) {

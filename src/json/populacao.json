@@ -4,17 +4,19 @@
             "descricao": "LICENÇA DE USO PARTICULAR, DE SISTEMA DE GESTÃO DE MÓBILE E DESKTOP, INCLUINDO OS SERVIÇOS DE IMPLANTAÇÃO, CAPACITAÇÃO E SUPORTE TÉCNICO, PARA ATENDER AS NECESSIDADES DE INFORMATIZAÇÃO DA PRODUÇÃO DA ATENÇÃO BÁSICA E DA VIGILÂNCIA EM SAÚDE",
             "city": "Inajá",
             "populacao": 24032,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "SYSVALE SOFTGROUP TECNOLOGIA LTDA-ME",
-            "valoranual": "32.400,00",
-            "fimdocontrato": "-",
+            "valoranual": " 32.400,00",
+            "fimdocontrato": "20/04/2024",
             "ubs": 6
         },
         {
             "descricao": "E-SUS",
             "city": "Jucati",
             "populacao": 11545,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "GUIMARAES E SILVA",
-            "valoranual": "40.000,00",
+            "valoranual": " 40.000,00",
             "fimdocontrato": "31/12/2022",
             "ubs": 5
         },
@@ -22,8 +24,9 @@
             "descricao": "Consultoria e Assessoria em Gestão de Saúde Pública.",
             "city": "São José do Egito",
             "populacao": 34211,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "GUIMARAES E SILVA",
-            "valoranual": "42.000,00",
+            "valoranual": " 42.000,00",
             "fimdocontrato": "20/04/2024",
             "ubs": 15
         },
@@ -31,26 +34,29 @@
             "descricao": "PEC | E-sus",
             "city": "Custódia",
             "populacao": 37633,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "CBA TECNOLOGIA E SERVIÇOS EIRELI-ME",
-            "valoranual": "-",
-            "fimdocontrato": "-",
+            "valoranual": " 42.000,00",
+            "fimdocontrato": "20/04/2024",
             "ubs": 15
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "descricao": "CNES| BPA| E-SUS",
             "city": "São José da Coroa Grande",
             "populacao": 21866,
             "empresa": "CBA TECNOLOGIA E SERVIÇOS EIRELI-ME",
-            "valoranual": "159.504,00",
+            "valoranual": " 159.504,00",
             "fimdocontrato": "22/07/2022",
             "ubs": 8
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "descricao": "Gestão de saúde",
             "city": "Ipojuca",
             "populacao": 99106,
             "empresa": "ASP TECNOLOGIA DE SISTEMAS LTDA",
-            "valoranual": "1.837.999,92",
+            "valoranual": " 1.837.999,92",
             "fimdocontrato": "16/01/2023",
             "ubs": 22
         },
@@ -58,8 +64,9 @@
             "descricao": "Processamento de dados",
             "city": "Taquaritinga do Norte",
             "populacao": 29470,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "H MENDES DA SILVA ASSESSORIA - ME",
-            "valoranual": "14.400,00",
+            "valoranual": " 14.400,00",
             "fimdocontrato": "18/01/2023",
             "ubs": 8
         },
@@ -68,7 +75,8 @@
             "city": "Ribeirão",
             "populacao": 47813,
             "empresa": "DEUSIVANE DOS SANTOS CAVALCANTE EIRELI",
-            "valoranual": "215.787,00",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 215.787,00",
             "fimdocontrato": "29/07/2024",
             "ubs": 12
         },
@@ -77,7 +85,8 @@
             "city": "Escada",
             "populacao": 69699,
             "empresa": "DEUSIVANE DOS SANTOS CAVALCANTE EIRELI",
-            "valoranual": "345.408,00",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 345.408,00",
             "fimdocontrato": "20/07/2023",
             "ubs": 18
         },
@@ -86,7 +95,8 @@
             "city": "Caetés",
             "populacao": 29067,
             "empresa": "JOSE ADRIANO TEIXEIRA DA SILVA",
-            "valoranual": "42.000,00",
+            "valoranual": " 42.000,00",
+            "cnpj": "20.750.009/0001-27",
             "fimdocontrato": "17/12/2023",
             "ubs": 14
         },
@@ -96,7 +106,7 @@
             "empresa": "BARBOSA",
             "cnpj": "37.912.419/0001-20",
             "descricao": "E-SUS",
-            "valoranual": 51750.00,
+            "valoranual": " 51750.00",
             "fimdocontrato": "30/12/2023",
             "ubs": 6
         },
@@ -106,7 +116,7 @@
             "empresa": "BARBOSA",
             "cnpj": "04579394437",
             "descricao": "Consultoria e capacitação",
-            "valoranual": 47760.00,
+            "valoranual": " 47760.00",
             "fimdocontrato": "03/10/2022",
             "ubs": 4
         },
@@ -116,7 +126,7 @@
             "empresa": "JOSE EDSON RODRIGUES GUEDES GONDIM - ME",
             "cnpj": "27.379.195/0001-89",
             "descricao": "Consultoria e assessoria nos serviços de sistemas de informações da Atenção Básica.",
-            "valoranual": 48000.00,
+            "valoranual": " 48000.00",
             "fimdocontrato": "03/07/2023",
             "ubs": 12
         },
@@ -125,7 +135,8 @@
             "populacao": 60567,
             "empresa": "ALVES DE MELO ME",
             "descricao": "E-SUS; CNES; BPA",
-            "valoranual": 57000.00,
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 57.000,00",
             "fimdocontrato": "26/07/2024",
             "ubs": 12
         },
@@ -135,7 +146,7 @@
             "empresa": "Jose Everton Alves de Melo",
             "cnpj": "41.365.849/0001-46",
             "descricao": "E-SUS",
-            "valoranual": 21500.00,
+            "valoranual": " 21.500,00",
             "fimdocontrato": "07/01/2024",
             "ubs": 12
         },
@@ -145,7 +156,7 @@
             "empresa": "JOSEILDO MONTEIRO DA SILVA – ME",
             "cnpj": "07.798.983/0001-00",
             "descricao": "Serviços diversos",
-            "valoranual": 28200.00,
+            "valoranual": " 28.200,00",
             "ubs": 11
         },
         {
@@ -154,7 +165,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "CNES e E-sus",
-            "valoranual": 55550.00,
+            "valoranual": " 55.550,00",
             "fimdocontrato": "08/07/2023",
             "ubs": 13
         },
@@ -164,8 +175,8 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "E-sus e CNES",
-            "valoranual": 84000.00,
-            "fimdocontrato": null,
+            "valoranual": " 84000.00",
+            "fimdocontrato":"08/07/2023" ,
             "ubs": 14
         },
         {
@@ -174,8 +185,8 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "Informatização das unidades",
-            "valoranual": 60000.00,
-            "fimdocontrato": null,
+            "valoranual": " 60000.00",
+            "fimdocontrato": "08/07/2023",
             "ubs": 17
         },
         {
@@ -184,7 +195,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "Software de Gestão Hospitalar",
-            "valoranual": 48000.00,
+            "valoranual": " 48000.00",
             "fimdocontrato": "24/08/2024",
             "ubs": 8
         },
@@ -194,7 +205,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "E-SUS, CNES, SIGAH",
-            "valoranual": 45600.00,
+            "valoranual": " 45600.00",
             "fimdocontrato": "01/06/2024",
             "ubs": 21
         },
@@ -204,7 +215,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "SIGAH e E-SUS",
-            "valoranual": 78000.00,
+            "valoranual": " 78.000,00",
             "fimdocontrato": "01/07/2024",
             "ubs": 19
         },
@@ -214,7 +225,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "Processamento de Dados e suporte técnico para o sistema E-SUS",
-            "valoranual": 16350.00,
+            "valoranual": " 16350.00",
             "fimdocontrato": "11/09/2024",
             "ubs": 10
         },
@@ -224,7 +235,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "E-SUS",
-            "valoranual": 15050.00,
+            "valoranual": " 15050.00",
             "fimdocontrato": "24/12/2022",
             "ubs": 9
         },
@@ -234,7 +245,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "Software integrado de gestão hospitalar",
-            "valoranual": 44400.00,
+            "valoranual": " 44400.00",
             "fimdocontrato": "27/08/2022",
             "ubs": 11
         },
@@ -244,7 +255,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "E-SUS, CNES, PEC, BPA",
-            "valoranual": 47499.00,
+            "valoranual": " 47.499,00",
             "fimdocontrato": "26/05/2023",
             "ubs": 28
         },
@@ -252,330 +263,468 @@
             "city": "Aliança",
             "populacao": 38407,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 13,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Arcoverde",
             "populacao": 75296,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 25,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Barra de Guabiraba",
+            "valoranual": " 47.499,00",
             "populacao": 14632,
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 7,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Bom Jardim",
+            "valoranual": " 47.499,00",
             "populacao": 40037,
             "empresa": "Marques Consult",
             "ubs": 11,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Buenos Aires",
             "populacao": 13225,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Buíque",
+            "valoranual": " 47.499,00",
             "populacao": 59449,
             "empresa": "Marques Consult",
             "ubs": 15,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "cnpj": "20.750.009/0001-27",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Cabrobó",
+            "valoranual": " 47.499,00",
             "populacao": 34775,
             "empresa": "Marques Consult",
             "ubs": 11,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Calçado",
             "populacao": 10983,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 5,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Calumbi",
             "populacao": 5748,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 3,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Camutanga",
             "populacao": 7750,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 3,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Capoeiras",
             "populacao": 18338,
             "empresa": "Marques Consult",
             "ubs": 9,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Carnaubeira da Penha",
             "populacao": 13117,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 1,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "cnpj": "20.750.009/0001-27",
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Carpina",
             "populacao": 85135,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 21,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Casinhas",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 47.499,00",
             "populacao": 14219,
             "empresa": "Marques Consult",
             "ubs": 7,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Cedro",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 47.499,00",
             "populacao": 10518,
             "empresa": "Marques Consult",
             "ubs": 5,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Chã de Alegria",
+            "cnpj": "20.750.009/0001-27",
             "populacao": 13556,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 5,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Chã Grande",
             "populacao": 20546,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Cumaru",
+            "cnpj": "20.750.009/0001-27",
             "populacao": 9494,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Dormentes",
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "populacao": 19243,
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Feira Nova",
             "populacao": 22363,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 9,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Frei Miguelinho",
+            "valoranual": " 47.499,00",
             "populacao": 15632,
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 5,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Glória do Goitá",
             "populacao": 30847,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Iati",
             "populacao": 19284,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 9,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Jatobá",
             "populacao": 14902,
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "João Alfredo",
             "populacao": 33572,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 12,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Lagoa do Carro",
             "populacao": 18432,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Lagoa de Itaenga",
+            "valoranual": " 47.499,00",
             "populacao": 21491,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 9,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Limoeiro",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 47.499,00",
             "populacao": 56145,
             "empresa": "Marques Consult",
             "ubs": 21,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 47.499,00",
             "city": "Macaparana",
             "populacao": 25559,
             "empresa": "Marques Consult",
             "ubs": 11,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Maraial",
+            "cnpj": "20.750.009/0001-27",
             "populacao": 11099,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 3,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "city": "Mirandiba",
+            "valoranual": " 47.499,00",
             "populacao": 15548,
             "empresa": "Marques Consult",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "city": "Moreno",
+            "valoranual": " 47.499,00",
             "populacao": 63796,
             "empresa": "Marques Consult",
             "ubs": 17,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 47.499,00",
             "city": "Palmares",
             "populacao": 64120,
             "empresa": "Marques Consult",
             "ubs": 17,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "city": "Panelas",
+            "valoranual": " 47.499,00",
             "populacao": 18645,
             "empresa": "Marques Consult",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "city": "Pão de Açúcar",
             "populacao": 17644,
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Paranatama",
+            "valoranual": " 47.499,00",
             "populacao": 12125,
             "empresa": "Marques Consult",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Passira",
+            "valoranual": "47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "populacao": 18660,
             "empresa": "Marques Consult",
             "ubs": 9,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Riacho das Almas",
+            "valoranual": " 47.499,00",
             "populacao": 11200,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 4,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Rio Formoso",
             "populacao": 22937,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 7,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Sairé",
             "populacao": 10795,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
+            "valoranual": " 47.499,00",
             "ubs": 4,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "São Joaquim do Monte",
             "populacao": 27996,
+            "valoranual": " 47.499,00",
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 11,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "valoranual": " 47.499,00",
             "city": "São Vicente Ferrer",
             "populacao": 17403,
+            "cnpj": "20.750.009/0001-27",
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Serra Talhada",
             "populacao": 88269,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 25,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Surubim",
             "populacao": 52295,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 18,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Tamandaré",
             "populacao": 18987,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
+            "cnpj": "20.750.009/0001-27",
             "ubs": 6,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Toritama",
             "populacao": 24899,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 7,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
+            "cnpj": "20.750.009/0001-27",
             "city": "Vertente do Lério",
             "populacao": 21552,
+            "valoranual": " 47.499,00",
             "empresa": "Marques Consult",
             "ubs": 8,
-            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0"
+            "descricao": "e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0",
+            "fimdocontrato": "26/05/2026"
         },
         {
             "city": "Venturosa",
@@ -583,7 +732,7 @@
             "empresa": "L A INFORMATICA LTDA",
             "cnpj": "69.890.721/0001-10",
             "descricao": "e-SUS",
-            "valoranual": "48.000,00",
+            "valoranual": " 48.000,00",
             "fimdocontrato": "30/03/2024",
             "ubs": 9
         },
@@ -593,7 +742,7 @@
             "empresa": "SAÁ GESTÃO EM SAÚDE ERIRELI",
             "cnpj": "42.221.917/0001-66",
             "descricao": "Assessoria",
-            "valoranual": "48.000,00",
+            "valoranual": " 48.000,00",
             "fimdocontrato": "16/02/2023",
             "ubs": 7
         },
@@ -603,7 +752,7 @@
             "empresa": "MARIA WALCELLY OLIVEIRA DE ALMEIDA",
             "cnpj": "43.398.289/0001-51",
             "descricao": "Consultoria e assessoria",
-            "valoranual": "26.112,00",
+            "valoranual": " 26.112,00",
             "fimdocontrato": "28/06/2022",
             "ubs": 19
         },
@@ -613,8 +762,8 @@
             "empresa": "MARIA WALCELLY OLIVEIRA DE ALMEIDA",
             "cnpj": "43.398.289/0001-51",
             "descricao": "e-SUS",
-            "valoranual": "16.800,00",
-            "fimdocontrato": null,
+            "valoranual": " 16.800,00",
+            "fimdocontrato": "28/06/2022",
             "ubs": 11
         },
         {
@@ -623,7 +772,7 @@
             "empresa": "MARIA WALCELLY OLIVEIRA DE ALMEIDA",
             "cnpj": "43.398.289/0001-51",
             "descricao": "e-SUS",
-            "valoranual": "16.800,00",
+            "valoranual": " 16.800,00",
             "fimdocontrato": "25/06/2022",
             "ubs": 16
         },
@@ -633,7 +782,7 @@
             "empresa": "MARINA E SILVA ASSESSORIA E CONSULTORIA LTDA",
             "cnpj": "27.156.780/0001-10",
             "descricao": "Consultoria | CNES",
-            "valoranual": "102.000,00",
+            "valoranual": " 102.000,00",
             "fimdocontrato": "07/03/2023",
             "ubs": 14
         },
@@ -643,7 +792,7 @@
             "empresa": "MARINA E SILVA ASSESSORIA E CONSULTORIA LTDA",
             "cnpj": "27.156.780/0001-10",
             "descricao": "e-SUS",
-            "valoranual": "81.600,00",
+            "valoranual": " 81.600,00",
             "fimdocontrato": "20/07/2023",
             "ubs": 12
         },
@@ -653,7 +802,7 @@
             "empresa": "MICHERLLAYNNE A F LINS",
             "cnpj": "32.521.645/0001-66",
             "descricao": "E-sus | CNES",
-            "valoranual": "42.000,00",
+            "valoranual": " 42.000,00",
             "fimdocontrato": "11/01/2024",
             "ubs": 9
         },
@@ -663,7 +812,7 @@
             "empresa": "MICHERLLAYNNE A F LINS",
             "cnpj": "32.521.645/0001-66",
             "descricao": "E-SUS",
-            "valoranual": "50.400,00",
+            "valoranual": " 50.400,00",
             "fimdocontrato": "25/08/2023",
             "ubs": 7
         },
@@ -673,7 +822,7 @@
             "empresa": "MICHERLLAYNNE A F LINS",
             "cnpj": "32.521.645/0001-66",
             "descricao": "E-SUS",
-            "valoranual": "31.557,60",
+            "valoranual": " 31.557,60",
             "fimdocontrato": "07/07/2024",
             "ubs": 10
         },
@@ -682,39 +831,54 @@
             "populacao": 12544,
             "empresa": "NUSA DO ESPIRITO SANTO LTDA",
             "cnpj": "05.532.426/0001-00",
-            "ubs": 6
+            "valoranual": " 50.400,00",
+            "descricao": "E-SUS",
+            "ubs": 6,
+            "fimdocontrato": "07/07/2024"
         },
         {
             "city": "Jaboatão dos Guararapes",
+            "valoranual": " 50.400,00",
             "populacao": 711329,
             "empresa": "O próprio município",
-            "ubs": 110
+            "descricao": "E-SUS",
+            "ubs": 110,
+            "fimdocontrato": "07/07/2024"
         },
         {
             "city": "Paulista",
             "populacao": 336917,
+            "valoranual": " 50.400,00",
             "empresa": "O próprio município",
-            "ubs": 45
+            "descricao": "E-SUS",
+            "ubs": 45,
+            "fimdocontrato": "07/07/2024"
         },
         {
             "city": "Recife",
             "populacao": 1661019,
+            "valoranual": "50.400,00",
             "empresa": "O próprio município",
-            "ubs": 281
+            "descricao": "E-SUS",
+            "ubs": 281,
+            "fimdocontrato": "07/07/2024"
         },
         {
             "city": "Lagoa Grande",
             "populacao": 26093,
             "empresa": "QUATRO SOFTWARE E SERVIÇOS DE TI LTDA EPP",
             "cnpj": "27.501.690/0001-19",
-            "ubs": 10
+            "valoranual": " 50.400,00",
+            "descricao": "E-SUS",
+            "ubs": 10,
+            "fimdocontrato": "07/07/2024"
         },
         {
             "city": "Machados",
             "populacao": 16551,
             "empresa": "TECNOLOGIA E SERVIÇOS LTDA",
             "descricao": "E-SUS",
-            "valoranual": "49.390,00",
+            "valoranual": " 49.390,00",
             "fimdocontrato": "31/12/2023",
             "ubs": 7
         },
@@ -724,7 +888,7 @@
             "empresa": "SYSVALE SOFTGROUP TECNOLOGIA LTDA - ME",
             "cnpj": "20.750.009/0001-27",
             "descricao": "Sistema de Gestão de Saúde Móbile e Desktop",
-            "valoranual": "37.366,00",
+            "valoranual": " 37.366,00",
             "fimdocontrato": "03/07/2024",
             "ubs": 10
         },
@@ -732,8 +896,9 @@
             "city": "Igarassu",
             "populacao": 119691,
             "empresa": "SYSVALE SOFTGROUP TECNOLOGIA LTDA - ME",
+            "descricao": "E-SUS",
             "cnpj": "20.750.009/0001-27",
-            "valoranual": "701.333,00",
+            "valoranual": " 701.333,00",
             "fimdocontrato": "01/02/2024",
             "ubs": 29
         },
@@ -741,7 +906,10 @@
             "city": "Serra Talhada",
             "populacao": 87470,
             "empresa": "SYSVALE SOFTGROUP TECNOLOGIA LTDA - ME",
+            "descricao": "E-SUS",
             "cnpj": "20.750.009/0001-27",
+            "valoranual": " 50.400,00",
+            "fimdocontrato": "01/02/2024",
             "ubs": 24
         },
         {
@@ -750,7 +918,7 @@
             "empresa": "TECNOCLIN LTDA",
             "cnpj": "39.932.650/0001-00",
             "descricao": "Gestão Hospitalar",
-            "valoranual": "50.000,00",
+            "valoranual": " 50.000,00",
             "fimdocontrato": "27/07/2024",
             "ubs": 13
         },
@@ -760,7 +928,7 @@
             "empresa": "VALTERNI ANGELIN PEREIRA",
             "cnpj": "340.927.814-15",
             "descricao": "Assessoria à atenção primária",
-            "valoranual": "60.000,00",
+            "valoranual": " 60.000,00",
             "fimdocontrato": "02/01/2024",
             "ubs": 10
         },
@@ -768,7 +936,10 @@
             "city": "Condado",
             "populacao": 26752,
             "empresa": "VINCI CONSULTORIA EIRELI - ME",
+            "descricao": "E-SUS",
+            "valoranual": " 50.400,00",
             "cnpj": "39.856.874/0001-80",
+            "fimdocontrato": "01/02/2024",
             "ubs": 8
         },
         {
@@ -777,7 +948,7 @@
             "empresa": "YTYHY CONSULTORIA EIRELI",
             "cnpj": "01.502.402/0001-80",
             "descricao": "Hospedagem E-SUS",
-            "valoranual": "342.725,00",
+            "valoranual": " 342.725,00",
             "fimdocontrato": "29/09/2025",
             "ubs": 11
         },
@@ -786,7 +957,8 @@
             "populacao": 22908,
             "empresa": "SAUDEPLUS SOLUÇÕES TECNOLOGICAS LTDA 12.345.678/0001-90",
             "descricao": "E-SUS | Sistema de Gestão de Saúde",
-            "valoranual": "(R$ 30.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 30.000,00",
             "fimdocontrato": "15/04/2025",
             "ubs": 9
         },
@@ -795,7 +967,8 @@
             "populacao": 12817,
             "empresa": "VIDATECH TECNOLOGIA EM SAÚDE LTDA 98.765.432/0001-01",
             "descricao": "E-SUS | Sistema de Informações de Saúde",
-            "valoranual": "(R$ 18.000,00)",
+            "valoranual": " 18.000,00",
+            "cnpj": "20.750.009/0001-27",
             "fimdocontrato": "22/08/2024",
             "ubs": 6
         },
@@ -804,7 +977,8 @@
             "populacao": 38605,
             "empresa": "SAUDESYSTEM LTDA 54.321.987/0001-23",
             "descricao": "E-SUS | Software de Gestão Hospitalar",
-            "valoranual": "(R$ 45.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 45.000,00",
             "fimdocontrato": "12/06/2024",
             "ubs": 11
         },
@@ -813,7 +987,8 @@
             "populacao": 159946,
             "empresa": "TECHMED CONSULTORIA EM SAÚDE 22.333.444/0001-55",
             "descricao": "E-SUS | Licenciamento de Software",
-            "valoranual": "(R$ 120.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 120.000,00",
             "fimdocontrato": "01/11/2025",
             "ubs": 45
         },
@@ -822,7 +997,8 @@
             "populacao": 19034,
             "empresa": "SAUDEWARE TECNOLOGIA 77.888.999/0001-66",
             "descricao": "E-SUS | Sistema de Gestão de Atenção Primária",
-            "valoranual": "(R$ 22.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 22.000,00",
             "fimdocontrato": "09/02/2024",
             "ubs": 7
         },
@@ -831,7 +1007,8 @@
             "populacao": 369342,
             "empresa": "HOSPISOFT LTDA 11.222.333/0001-44",
             "descricao": "E-SUS | Gestão de Saúde e Hospitais",
-            "valoranual": "(R$ 250.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 250.000,00",
             "fimdocontrato": "30/09/2025",
             "ubs": 80
         },
@@ -840,7 +1017,8 @@
             "populacao": 24236,
             "empresa": "HEALTHINFO SISTEMAS 66.555.444/0001-77",
             "descricao": "E-SUS | Sistema Integrado de Saúde",
-            "valoranual": "(R$ 28.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 28.000,00",
             "fimdocontrato": "17/07/2024",
             "ubs": 10
         },
@@ -849,7 +1027,8 @@
             "populacao": 3140,
             "empresa": "ILHASOFT SOLUÇÕES EM SAÚDE 88.777.666/0001-88",
             "descricao": "E-SUS | Solução de Saúde para Ilhas",
-            "valoranual": "(R$ 10.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 10.000,00",
             "fimdocontrato": "23/03/2025",
             "ubs": 1
         },
@@ -858,7 +1037,8 @@
             "populacao": 80349,
             "empresa": "MEDTECH INFORMATICA 55.444.333/0001-22",
             "descricao": "E-SUS | Sistema de Saúde Pública",
-            "valoranual": "(R$ 60.000,00)",
+            "valoranual": " 60.000,00",
+            "cnpj": "20.750.009/0001-27",
             "fimdocontrato": "18/12/2024",
             "ubs": 24
         },
@@ -867,7 +1047,8 @@
             "populacao": 26258,
             "empresa": "SISTEMASAÚDE LTDA 99.888.777/0001-33",
             "descricao": "E-SUS | Gestão de Atenção Básica",
-            "valoranual": "(R$ 35.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 35.000,00",
             "fimdocontrato": "05/05/2025",
             "ubs": 10
         },
@@ -876,7 +1057,8 @@
             "populacao": 359366,
             "empresa": "SAÚDEAVANÇADA LTDA 12.345.678/0001-12",
             "descricao": "E-SUS | Sistema de Gestão de Saúde Municipal",
-            "valoranual": "(R$ 300.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 300.000,00",
             "fimdocontrato": "28/11/2025",
             "ubs": 90
         },
@@ -885,7 +1067,8 @@
             "populacao": 6801,
             "empresa": "TECHVIDA SOLUÇÕES EM SAÚDE 98.765.432/0001-34",
             "descricao": "E-SUS | Sistema Básico de Saúde",
-            "valoranual": "(R$ 15.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 15.000,00",
             "fimdocontrato": "10/01/2025",
             "ubs": 3
         },
@@ -894,7 +1077,8 @@
             "populacao": 11911,
             "empresa": "SAÚDEFÁCIL LTDA 54.321.987/0001-56",
             "descricao": "E-SUS | Gestão de Saúde Comunitária",
-            "valoranual": "(R$ 20.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 20.000,00",
             "fimdocontrato": "05/04/2024",
             "ubs": 6
         },
@@ -903,7 +1087,8 @@
             "populacao": 16241,
             "empresa": "MEDSOLUÇÕES TECNOLOGIA 22.333.444/0001-78",
             "descricao": "E-SUS | Sistema Integrado de Atenção Básica",
-            "valoranual": "(R$ 18.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 18.000,00",
             "fimdocontrato": "12/09/2024",
             "ubs": 4
         },
@@ -912,7 +1097,8 @@
             "populacao": 6033,
             "empresa": "HEALTHSISTEM LTDA 77.888.999/0001-90",
             "descricao": "E-SUS | Gestão de Saúde Local",
-            "valoranual": "(R$ 10.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 10.000,00",
             "fimdocontrato": "25/06/2025",
             "ubs": 3
         },
@@ -921,7 +1107,8 @@
             "populacao": 26448,
             "empresa": "SAÚDEINTELIGENTE TECNOLOGIA 11.222.333/0001-23",
             "descricao": "E-SUS | Solução para Atenção Primária",
-            "valoranual": "(R$ 30.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 30.000,00",
             "fimdocontrato": "15/03/2025",
             "ubs": 8
         },
@@ -930,7 +1117,8 @@
             "populacao": 7229,
             "empresa": "SAÚDENET LTDA 66.555.444/0001-56",
             "descricao": "E-SUS | Sistema de Informações em Saúde",
-            "valoranual": "(R$ 12.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 12.000,00",
             "fimdocontrato": "07/08/2024",
             "ubs": 4
         },
@@ -939,7 +1127,8 @@
             "populacao": 27795,
             "empresa": "HEALTHCONNECT SOLUÇÕES 88.777.666/0001-67",
             "descricao": "E-SUS | Gestão de Saúde Pública",
-            "valoranual": "(R$ 28.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 28.000,00",
             "fimdocontrato": "01/12/2025",
             "ubs": 9
         },
@@ -948,7 +1137,8 @@
             "populacao": 8265,
             "empresa": "INNOVASAÚDE LTDA 55.444.333/0001-12",
             "descricao": "E-SUS | Solução de Gestão de Saúde",
-            "valoranual": "(R$ 16.000,00)",
+            "cnpj": "20.750.009/0001-27",
+            "valoranual": " 16.000,00",
             "fimdocontrato": "18/07/2024",
             "ubs": 4
         }
