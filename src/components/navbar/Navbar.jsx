@@ -35,7 +35,6 @@ export function Navbar({ cidadeSelecionada }) {
         fetchData();
     }, []);
 
-
     const showSuggestions = (value) => {
 
         setInputValue(value)
@@ -65,7 +64,6 @@ export function Navbar({ cidadeSelecionada }) {
         cidadeSelecionada(() => cidadeSelecionada(suggestion))
         refInput.current.value = ''
         refDiv.current.className = 'hidden'
-
     }
 
     return (

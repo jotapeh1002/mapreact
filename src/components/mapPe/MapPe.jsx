@@ -1,4 +1,5 @@
 import Mapasvg from '../../svg/mapa-pr.svg'
+import Regioes from '../../json/regioes.json'
 import { useEffect, useRef, useState } from 'react'
 
 export function MapPe({ dadosOBJ, recDados }) {
@@ -22,186 +23,111 @@ export function MapPe({ dadosOBJ, recDados }) {
                     const paths = svgRef.current.querySelectorAll('path')
                     paths.forEach((path) => {
 
-
                         if (path.id.trim() == 'Limoeiro' && pathMap === '') {
                             path.style.fill = 'red';
                             setpathMap('Limoeiro')
                         }
-
-                        let regioes = {
-                            metropolitana: ['Recife', 'Olinda', 'Jaboatão dos Guararapes', 'Paulista',
-                                'Cabo de Santo Agostinho', 'Camaragibe', 'São Lourenço da Mata',
-                                'Abreu e Lima', 'Igarassu', 'Ipojuca', 'Araçoiaba', 'Moreno',
-                                'Itapissuma', 'Ilha de Itamaracá', 'São Lourenço da Mata'],
-                            agreste: ['Agrestina', 'Alagoinha', 'Altinho', 'Barra de Guabiraba',
-                                'Belo Jardim', 'Bezerros', 'Bonito', 'Brejo da Madre de Deus',
-                                'Cachoeirinha', 'Camocim de São Felix', 'Caruaru', 'Cupira',
-                                'Gravatá', 'Ibirajuba', 'Jatáuba', 'Lagoa dos Gatos',
-                                'Panelas', 'Pesqueira', 'Poção', 'Pombos', 'Riacho das Almas',
-                                'Sairé', 'Sanharó', 'São Bento do Una', 'São Caitano',
-                                'São Joaquim do Monte', 'Tacaimbó',
-                                'Águas Belas', 'Angelim', 'Bom Conselho', 'Brejão',
-                                'Buíque', 'Caetés', 'Calçado', 'Canhotinho', 'Capoeiras',
-                                'Correntes', 'Garanhuns', 'Iati', 'Itaíba', 'Jucatí',
-                                'Jupi', 'Jurema', 'Lagoa do Ouro', 'Lajedo', 'Palmeirina',
-                                'Paranatama', 'Pedra', 'Saloá', 'São João', 'Terezinha',
-                                'Tupanatinga', 'Venturosa', 'Bom Jardim', 'Casinhas',
-                                'Cumaru', 'Feira Nova', 'Frei Miguelinho', 'João Alfredo',
-                                'Limoeiro', 'Machados', 'Orobó', 'Passira', 'Salgadinho',
-                                'Santa Cruz do Capibaribe', 'Santa Maria do Cambucá',
-                                'São Vicente Férrer', 'Surubim', 'Taquaritinga do Norte',
-                                'Toritama', 'Vertente do Lério', 'Vertentes', 'Jucati', 'Camocim de São Félix', 'Jataúba'],
-                            zonadamata: ['Aliança', 'Buenos Aires', 'Camutanga', 'Carpina',
-                                'Chã de Alegria', 'Condado', 'Ferreiros', 'Glória do Goitá',
-                                'Goiana', 'Itambé', 'Itaquitinga', 'Lagoa do Carro',
-                                'Lagoa de Itaenga', 'Macaparana', 'Nazaré da Mata',
-                                'Paudalho', 'Timbaúba', 'Tracunhaém',
-                                'Água Preta', 'Amaraji', 'Barreiros', 'Belém de Maria',
-                                'Catende', 'Chã Grande', 'Cortes', 'Escada',
-                                'Gameleira', 'Jaqueira', 'Joaquim Nabuco', 'Maraial',
-                                'Palmares', 'Primavera', 'Quipapá', 'Ribeirão',
-                                'Rio Formoso', 'São Benedito do Sul', 'Sirinhaém',
-                                'São José da Coroa Grande', 'Tamandaré', 'Vitória de Santo Antão',
-                                'Xexéu'],
-                            sertao: ['Cedro', 'Mirandiba', 'Parnamirim', 'Salgueiro',
-                                'São José do Belmonte', 'Serrita', 'Terra Nova', 'Verdejante',
-                                'Belém de São Francisco', 'Carnaubeira da Penha', 'Floresta',
-                                'Itacuruba', 'Jatobá', 'Petrolândia', 'Tacaratu',
-                                'Araripina', 'Bodocó', 'Exu', 'Granito', 'Ipubi',
-                                'Moreilândia', 'Ouricuri', 'Santa Cruz', 'Santa Filomena',
-                                'Trindade', 'Arcoverde', 'Betânia', 'Custódia', 'Ibimirim',
-                                'Inajá', 'Manari', 'Sertânia', 'Petrolina', 'Lagoa Grande',
-                                'Santa Maria da Boa Vista', 'Dormentes', 'Afrânio', 'Cabrobó', 'Orocó']
-                        }
                         if (selectValue) {
-                            // paths.forEach((items) => items.style.fill = '#fefee9')
-                            if (selectValue === 'metropolitana') {
-                                paths.forEach(items => {
-                                    if (!regioes.metropolitana.includes(items.id.trim())) {
-                                        // items.style.fill = 'red'
-                                        items.style.opacity = '0.1'
+                            fetch('./src/json/regioes.json')
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error('Network response was not ok');
                                     }
+                                    return response.json();
                                 })
-                            }
-                            else if (selectValue === 'agreste') {
-                                paths.forEach(items => {
-                                    if (!regioes.agreste.includes(items.id.trim())) {
-                                        // items.style.fill = 'black'
-                                        items.style.opacity = '0.1'
-                                    }
+                                .then(data => {
+                                    Object.entries(data).forEach(([regiao, cidades]) => {
+                                        console.log('Região: ' + regiao);
+                                        cidades.forEach(cidade => {
+                                            console.log('Cidade: ' + cidade)
+                                        })
+                                        if (regiao === selectValue) {
+                                            paths.forEach(items => {
+                                                if (!cidades.includes(items.id.trim())) {
+                                                    items.style.opacity = '0.1'
+                                                } else {
+                                                    items.style.opacity = '1'
+                                                }
+                                            })
+                                        }
+                                    })
                                 })
-                            }
-                            else if (selectValue === 'sertao') {
-                                paths.forEach(items => {
-                                    if (!regioes.sertao.includes(items.id.trim())) {
-                                        // items.style.fill = 'green'
-                                        items.style.opacity = '0.1'
-                                    }
-                                })
-                            }
-                            else if (selectValue === 'zonadamata') {
-                                paths.forEach(items => {
-                                    if (!regioes.zonadamata.includes(items.id.trim())) {
-                                        // items.style.fill = 'purple'
-                                        items.style.opacity = '0.1'
-                                    }
-                                })
-                            }
                         }
-
                         function dadosCity() {
                             let ar = path.getAttribute('id').trim()
                             setpathMap(ar)
                             fetch('./src/json/populacao.json')
-                                .then(response => response.json())
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error('Erro na resposta da rede: ' + response.statusText)
+                                    }
+                                    return response.json()
+                                })
                                 .then(data => {
                                     if (Array.isArray(data.municipio)) {
-                                        let nomes = data.municipio.find((muni) => {
-                                            if (muni !== null) { return muni.city == ar }
-                                        })
-
-                                        let dadospopu = nomes.populacao.toLocaleString('pt-BR')
-
-                                        let dadosvalorFor = parseFloat(nomes.valoranual.replace(/\./g, '').replace(',', '.'))
-
-                                        let dadosvalor = dadosvalorFor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
-
-                                        dadosOBJ({
-                                            municipio: nomes.city,
-                                            populacao: dadospopu,
-                                            empresa: nomes.empresa,
-                                            descricao: nomes.descricao,
-                                            valoranual: dadosvalor,
-                                            fimdocontrato: nomes.fimdocontrato,
-                                            ubs: nomes.ubs
-                                        })
-                                        setpathMap(nomes.city)
-
+                                        let nomes = data.municipio.find(muni => muni && muni.city === ar)
+                                        if (nomes) {
+                                            let dadospopu = nomes.populacao.toLocaleString('pt-BR')
+                                            let dadosvalorFor = parseFloat(nomes.valoranual.replace(/\./g, '').replace(',', '.'))
+                                            let dadosvalor = dadosvalorFor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+                                            dadosOBJ({
+                                                municipio: nomes.city,
+                                                populacao: dadospopu,
+                                                empresa: nomes.empresa,
+                                                descricao: nomes.descricao,
+                                                valoranual: dadosvalor,
+                                                fimdocontrato: nomes.fimdocontrato,
+                                                ubs: nomes.ubs,
+                                                cnpj: nomes.cnpj
+                                            })
+                                            setpathMap(nomes.city);
+                                        } else {
+                                            console.log('Município não encontrado na lista.')
+                                        }
                                     } else {
                                         console.log('Não foi possível encontrar a lista de municípios.')
                                     }
                                 })
-                                .catch(error => console.error('Erro ao carregar o json:', error))
+                                .catch(error => console.error('Erro ao carregar o JSON:', error))
+                        }
+                        function iVery(very) {
+                            if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
+                                selectValue !== 'agreste' && selectValue !== 'sertao') {
+                                path.style.fill = 'red'
+                                setRecDados(recDados)
+                                dadosCity()
+                            }
+                            else {
+                                if (selectValue === 'metropolitana' && regioes.metropolitana.includes(very)) {
+                                    path.style.fill = 'red'
+                                    setRecDados(recDados)
+                                    dadosCity()
+                                }
+                                else if (selectValue === 'agreste' && regioes.agreste.includes(very)) {
+                                    path.style.fill = 'red'
+                                    setRecDados(recDados)
+                                    dadosCity()
+                                }
+                                else if (selectValue === 'sertao' && regioes.sertao.includes(very)) {
+                                    path.style.fill = 'red'
+                                    setRecDados(recDados)
+                                    dadosCity()
+                                }
+                                else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(very)) {
+                                    path.style.fill = 'red'
+                                    setRecDados(recDados)
+                                    dadosCity()
+                                }
+                            }
                         }
 
                         if (path.id.trim() === recDados) {
-
-                            function search() {
-                                // paths.forEach((items) => items.style.fill = '#fefee9')
-                                setRecDados(recDados)
-                                path.style.fill = 'red'
-                                // alert(recDados)
-                                dadosCity()
-                            }
-
-                            if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
-                                selectValue !== 'agreste' && selectValue !== 'sertao') {
-                                search()
-                            }
-                            else {
-                                if (selectValue === 'metropolitana' && regioes.metropolitana.includes(recDados)) {
-                                    search()
-                                }
-                                else if (selectValue === 'agreste' && regioes.agreste.includes(recDados)) {
-                                    path.style.fill = 'red'
-                                    search()
-                                }
-                                else if (selectValue === 'sertao' && regioes.sertao.includes(recDados)) {
-                                    path.style.fill = 'red'
-                                    search()
-                                }
-                                else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(recDados)) {
-                                    path.style.fill = 'red'
-                                    search()
-                                }
-                            }
+                            iVery(recDados)
                         }
 
                         path.addEventListener('click', () => {
                             paths.forEach((items) => items.style.fill = '#fefee9')
-                            if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
-                                selectValue !== 'agreste' && selectValue !== 'sertao') {
-                                path.style.fill = 'red'
-                                dadosCity()
-                            }
-                            else {
-                                if (selectValue === 'metropolitana' && regioes.metropolitana.includes(path.id.trim())) {
-                                    path.style.fill = 'red'
-                                    dadosCity()
-                                }
-                                else if (selectValue === 'agreste' && regioes.agreste.includes(path.id.trim())) {
-                                    path.style.fill = 'red'
-                                    dadosCity()
-                                }
-                                else if (selectValue === 'sertao' && regioes.sertao.includes(path.id.trim())) {
-                                    path.style.fill = 'red'
-                                    dadosCity()
-                                }
-                                else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(path.id.trim())) {
-                                    path.style.fill = 'red'
-                                    dadosCity()
-                                }
-                            }
+                            iVery(path.id.trim())
                         })
 
                         path.addEventListener('mousemove', (event) => {

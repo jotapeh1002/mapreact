@@ -12,9 +12,10 @@ import { useEffect, useRef, useState } from 'react'
 export function App() {
 
   const [dadosUbs, setDadosUbs] = useState(8)
-  const [dadosPopulacao, setDadosPopulacao] = useState(5300)
-  const [dadosContrato, setDadosContrato] = useState(5300)
-  const [dadosValorAnual, setDadosValorAnual] = useState(5300)
+  const [dadosPopulacao, setDadosPopulacao] = useState(53.001)
+  const [cnpjd, setDadosCnpj] = useState(120000-5)
+  const [dadosContrato, setDadosContrato] = useState("12/10/2025")
+  const [dadosValorAnual, setDadosValorAnual] = useState('R$ 53.000,00')
   const [dadosEmpresa, setDadosEmpresa] = useState('MARQUES CONSULT')
   const [dadosDescricao, setDadosDescricao] = useState('e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0')
   const [nomes, setNome] = useState()
@@ -26,12 +27,11 @@ export function App() {
     setDadosValorAnual(dados.valoranual)
     setDadosEmpresa(dados.empresa)
     setDadosDescricao(dados.descricao)
-    // alert(dados.populacao)
+    setDadosCnpj(dados.cnpj)
     return dados
   }
   function atualizarDados(dados) {
     setNome(dados)
-    // alert(dados)
     return dados
   }
 
@@ -62,7 +62,7 @@ export function App() {
               <div className='flex my-2 flex-col '>
                 <Cards title={'Fim do Contrato'} result={dadosContrato} cardImages={contratoImage} width='w-[25vw]' />
                 <Cards title={'Valor Anual'} result={dadosValorAnual} cardImages={valorImage} width='' />
-                <Cards title={'CNPJ'} cardImages={cnpjImage} width='' result={'00000-0'} />
+                <Cards title={'CNPJ'} cardImages={cnpjImage} width='' result={cnpjd} />
               </div>
               <div className='border-gray-600 border-y shadow-md bg-slate-600 w-1/2 rounded-xl shadoe-md my-5 bg-opacity-40 flex justify-center items-center'>
                 <img src={marquesImage} className='' width={350} alt="" />
