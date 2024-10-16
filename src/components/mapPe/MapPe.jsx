@@ -57,38 +57,32 @@ export function MapPe({ dadosOBJ, recDados }) {
                             let ar = path.getAttribute('id').trim()
                             setpathMap(ar)
                             fetch('./src/json/populacao.json')
-                                .then(response => {
-                                    if (!response.ok) {
-                                        throw new Error('Erro na resposta da rede: ' + response.statusText)
-                                    }
-                                    return response.json()
-                                })
+                                .then(response => response.json())
                                 .then(data => {
                                     if (Array.isArray(data.municipio)) {
-                                        let nomes = data.municipio.find(muni => muni && muni.city === ar)
-                                        if (nomes) {
-                                            let dadospopu = nomes.populacao.toLocaleString('pt-BR')
-                                            let dadosvalorFor = parseFloat(nomes.valoranual.replace(/\./g, '').replace(',', '.'))
-                                            let dadosvalor = dadosvalorFor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-                                            dadosOBJ({
-                                                municipio: nomes.city,
-                                                populacao: dadospopu,
-                                                empresa: nomes.empresa,
-                                                descricao: nomes.descricao,
-                                                valoranual: dadosvalor,
-                                                fimdocontrato: nomes.fimdocontrato,
-                                                ubs: nomes.ubs,
-                                                cnpj: nomes.cnpj
-                                            })
-                                            setpathMap(nomes.city);
-                                        } else {
-                                            console.log('Município não encontrado na lista.')
-                                        }
+                                        let nomes = data.municipio.find((muni) => {
+                                            if (muni !== null) { return muni.city == ar }
+                                        })
+                                        let dadospopu = nomes.populacao.toLocaleString('pt-BR')
+                                        let dadosvalorFor = parseFloat(nomes.valoranual.replace(/\./g, '').replace(',', '.'))
+                                        let dadosvalor = dadosvalorFor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+                                        dadosOBJ({
+                                            municipio: nomes.city,
+                                            populacao: dadospopu,
+                                            empresa: nomes.empresa,
+                                            descricao: nomes.descricao,
+                                            valoranual: dadosvalor,
+                                            fimdocontrato: nomes.fimdocontrato,
+                                            ubs: nomes.ubs,
+                                            cnpj: nomes.cnpj
+                                        })
+                                        setpathMap(nomes.city)
+
                                     } else {
                                         console.log('Não foi possível encontrar a lista de municípios.')
                                     }
                                 })
-                                .catch(error => console.error('Erro ao carregar o JSON:', error))
+                                .catch(error => console.error('Erro ao carregar o json:', error))
                         }
                         function iVery(very) {
                             if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
@@ -99,9 +93,9 @@ export function MapPe({ dadosOBJ, recDados }) {
                             }
                             else {
                                 if (selectValue === 'metropolitana' && regioes.metropolitana.includes(very)) {
-                                    path.style.fill = 'red'
                                     setRecDados(recDados)
                                     dadosCity()
+                                    path.style.fill = 'red'
                                 }
                                 else if (selectValue === 'agreste' && regioes.agreste.includes(very)) {
                                     path.style.fill = 'red'
@@ -120,16 +114,13 @@ export function MapPe({ dadosOBJ, recDados }) {
                                 }
                             }
                         }
-
                         if (path.id.trim() === recDados) {
                             iVery(recDados)
                         }
-
                         path.addEventListener('click', () => {
                             paths.forEach((items) => items.style.fill = '#fefee9')
                             iVery(path.id.trim())
                         })
-
                         path.addEventListener('mousemove', (event) => {
                             setMousePosition({ x: event.pageX, y: event.pageY });
                             setPopupContent(path.id.trim());
