@@ -101,7 +101,6 @@ export function MapPe({ dadosOBJ, recDados }) {
                                 })
                             }
                             else if (selectValue === 'zonadamata') {
-
                                 paths.forEach(items => {
                                     if (!regioes.zonadamata.includes(items.id.trim())) {
                                         // items.style.fill = 'purple'
@@ -112,46 +111,60 @@ export function MapPe({ dadosOBJ, recDados }) {
                         }
                         path.addEventListener('click', () => {
                             paths.forEach((items) => items.style.fill = '#fefee9')
-                            if (selectValue === '') {
+                            if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
+                                selectValue !== 'agreste' && selectValue !== 'sertao') {
                                 path.style.fill = 'red'
+                                dadosCity()
+
                             }
                             else {
                                 if (selectValue === 'metropolitana' && regioes.metropolitana.includes(path.id.trim())) {
                                     path.style.fill = 'red'
+                                dadosCity()
+
                                 }
                                 else if (selectValue === 'agreste' && regioes.agreste.includes(path.id.trim())) {
                                     path.style.fill = 'red'
+                                dadosCity()
+
                                 }
                                 else if (selectValue === 'sertao' && regioes.sertao.includes(path.id.trim())) {
                                     path.style.fill = 'red'
+                                dadosCity()
+
                                 }
                                 else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(path.id.trim())) {
                                     path.style.fill = 'red'
+                                dadosCity()
+
                                 }
                             }
-                            let ar = path.getAttribute('id').trim()
-                            setpathMap(ar)
-                            fetch('./src/json/populacao.json')
-                                .then(response => response.json())
-                                .then(data => {
-                                    if (Array.isArray(data.municipio)) {
-                                        let nomes = data.municipio.find((muni) => {
-                                            if (muni !== null) { return muni.city == ar }
-                                        })
-                                        dadosOBJ({
-                                            municipio: nomes.city,
-                                            populacao: nomes.populacao,
-                                            empresa: nomes.empresa,
-                                            descricao: nomes.descricao,
-                                            valoranual: nomes.valoranual,
-                                            fimdocontrato: nomes.fimdocontrato,
-                                            ubs: nomes.ubs
-                                        })
-                                    } else {
-                                        console.log('Não foi possível encontrar a lista de municípios.');
-                                    }
-                                })
-                                .catch(error => console.error('Erro ao carregar o json:', error));
+
+                            function dadosCity() {
+                                let ar = path.getAttribute('id').trim()
+                                setpathMap(ar)
+                                fetch('./src/json/populacao.json')
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        if (Array.isArray(data.municipio)) {
+                                            let nomes = data.municipio.find((muni) => {
+                                                if (muni !== null) { return muni.city == ar }
+                                            })
+                                            dadosOBJ({
+                                                municipio: nomes.city,
+                                                populacao: nomes.populacao,
+                                                empresa: nomes.empresa,
+                                                descricao: nomes.descricao,
+                                                valoranual: nomes.valoranual,
+                                                fimdocontrato: nomes.fimdocontrato,
+                                                ubs: nomes.ubs
+                                            })
+                                        } else {
+                                            console.log('Não foi possível encontrar a lista de municípios.')
+                                        }
+                                    })
+                                    .catch(error => console.error('Erro ao carregar o json:', error))
+                            }
                         })
                         path.addEventListener('mousemove', (event) => {
                             setMousePosition({ x: event.pageX, y: event.pageY });
@@ -186,7 +199,7 @@ export function MapPe({ dadosOBJ, recDados }) {
                 <div className="mx-4  text-sm w-60 -mb-2 mt-2">
                     <select ref={selectRef} onChange={eventSelect}
                         className="text-center bg-transparent text-slate-300 font-bold rounded p-2 mb-4 w-full">
-                        <option value="">Todas as regiões</option>
+                        <option value="defined">Todas as regiões</option>
                         <option value="metropolitana">Região Metropolitana</option>
                         <option value="agreste">Agreste</option>
                         <option value="sertao">Sertão</option>
