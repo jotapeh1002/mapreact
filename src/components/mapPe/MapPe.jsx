@@ -5,16 +5,12 @@ export function MapPe({ dadosOBJ, recDados }) {
 
     const svgRef = useRef(null)
     const selectRef = useRef(null)
-    const [pathMap, setpathMap] = useState(null)
+    const [pathMap, setpathMap] = useState('')
     const [recDadosValue, setRecDados] = useState(null)
     const [selectValue, setSelectValue] = useState(null);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [popupContent, setPopupContent] = useState('');
 
-    useEffect(() => {
-        // setRecDados(recDados) //ta guardando o valor antigo
-        // alert(recDadosValue)
-    }, [recDados])
     useEffect(() => {
         if (svgRef.current) {
             fetch(Mapasvg)
@@ -25,10 +21,13 @@ export function MapPe({ dadosOBJ, recDados }) {
                     svgElement.style.width = '100%'
                     const paths = svgRef.current.querySelectorAll('path')
                     paths.forEach((path) => {
-                        if (path.id.trim() === 'Limoeiro') {
-                            setpathMap(path.id.trim());
+
+
+                        if (path.id.trim() == 'Limoeiro' && pathMap === '') {
                             path.style.fill = 'red';
+                            setpathMap('Limoeiro')
                         }
+
                         let regioes = {
                             metropolitana: ['Recife', 'Olinda', 'Jaboatão dos Guararapes', 'Paulista',
                                 'Cabo de Santo Agostinho', 'Camaragibe', 'São Lourenço da Mata',
@@ -75,7 +74,7 @@ export function MapPe({ dadosOBJ, recDados }) {
                                 'Santa Maria da Boa Vista', 'Dormentes', 'Afrânio', 'Cabrobó', 'Orocó']
                         }
                         if (selectValue) {
-                            paths.forEach((items) => items.style.fill = '#fefee9')
+                            // paths.forEach((items) => items.style.fill = '#fefee9')
                             if (selectValue === 'metropolitana') {
                                 paths.forEach(items => {
                                     if (!regioes.metropolitana.includes(items.id.trim())) {
@@ -109,63 +108,95 @@ export function MapPe({ dadosOBJ, recDados }) {
                                 })
                             }
                         }
+
+                        function dadosCity() {
+                            let ar = path.getAttribute('id').trim()
+                            setpathMap(ar)
+                            fetch('./src/json/populacao.json')
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (Array.isArray(data.municipio)) {
+                                        let nomes = data.municipio.find((muni) => {
+                                            if (muni !== null) { return muni.city == ar }
+                                        })
+                                        dadosOBJ({
+                                            municipio: nomes.city,
+                                            populacao: nomes.populacao,
+                                            empresa: nomes.empresa,
+                                            descricao: nomes.descricao,
+                                            valoranual: nomes.valoranual,
+                                            fimdocontrato: nomes.fimdocontrato,
+                                            ubs: nomes.ubs
+                                        })
+                                        setpathMap(nomes.city)
+
+                                    } else {
+                                        console.log('Não foi possível encontrar a lista de municípios.')
+                                    }
+                                })
+                                .catch(error => console.error('Erro ao carregar o json:', error))
+                        }
+
+                        if (path.id.trim() === recDados) {
+
+                            function search() {
+                                // paths.forEach((items) => items.style.fill = '#fefee9')
+                                setRecDados(recDados)
+                                path.style.fill = 'red'
+                                // alert(recDados)
+                                dadosCity()
+                            }
+
+                            if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
+                                selectValue !== 'agreste' && selectValue !== 'sertao') {
+                                    search()
+                            }
+                            else {
+                                if (selectValue === 'metropolitana' && regioes.metropolitana.includes(recDados)) {
+                                    search()
+                                }
+                                else if (selectValue === 'agreste' && regioes.agreste.includes(recDados)) {
+                                    path.style.fill = 'red'
+                                    search()
+                                }
+                                else if (selectValue === 'sertao' && regioes.sertao.includes(recDados)) {
+                                    path.style.fill = 'red'
+                                    search()
+                                }
+                                else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(recDados)) {
+                                    path.style.fill = 'red'
+                                    search()
+                                }
+                            }
+                        }
+
                         path.addEventListener('click', () => {
                             paths.forEach((items) => items.style.fill = '#fefee9')
                             if (selectValue !== 'zonadamata' && selectValue !== 'metropolitana' &&
                                 selectValue !== 'agreste' && selectValue !== 'sertao') {
                                 path.style.fill = 'red'
                                 dadosCity()
-
                             }
                             else {
                                 if (selectValue === 'metropolitana' && regioes.metropolitana.includes(path.id.trim())) {
                                     path.style.fill = 'red'
-                                dadosCity()
-
+                                    dadosCity()
                                 }
                                 else if (selectValue === 'agreste' && regioes.agreste.includes(path.id.trim())) {
                                     path.style.fill = 'red'
-                                dadosCity()
-
+                                    dadosCity()
                                 }
                                 else if (selectValue === 'sertao' && regioes.sertao.includes(path.id.trim())) {
                                     path.style.fill = 'red'
-                                dadosCity()
-
+                                    dadosCity()
                                 }
                                 else if (selectValue === 'zonadamata' && regioes.zonadamata.includes(path.id.trim())) {
                                     path.style.fill = 'red'
-                                dadosCity()
-
+                                    dadosCity()
                                 }
                             }
-
-                            function dadosCity() {
-                                let ar = path.getAttribute('id').trim()
-                                setpathMap(ar)
-                                fetch('./src/json/populacao.json')
-                                    .then(response => response.json())
-                                    .then(data => {
-                                        if (Array.isArray(data.municipio)) {
-                                            let nomes = data.municipio.find((muni) => {
-                                                if (muni !== null) { return muni.city == ar }
-                                            })
-                                            dadosOBJ({
-                                                municipio: nomes.city,
-                                                populacao: nomes.populacao,
-                                                empresa: nomes.empresa,
-                                                descricao: nomes.descricao,
-                                                valoranual: nomes.valoranual,
-                                                fimdocontrato: nomes.fimdocontrato,
-                                                ubs: nomes.ubs
-                                            })
-                                        } else {
-                                            console.log('Não foi possível encontrar a lista de municípios.')
-                                        }
-                                    })
-                                    .catch(error => console.error('Erro ao carregar o json:', error))
-                            }
                         })
+
                         path.addEventListener('mousemove', (event) => {
                             setMousePosition({ x: event.pageX, y: event.pageY });
                             setPopupContent(path.id.trim());
@@ -178,7 +209,7 @@ export function MapPe({ dadosOBJ, recDados }) {
                 })
                 .catch(error => console.error('Erro ao carregar o SVG:', error))
         }
-    }, [selectValue])
+    }, [selectValue, recDados])
     const eventSelect = (event) => {
         setSelectValue(event.target.value);
     };

@@ -1,6 +1,7 @@
 import ubsImage from './assets/habitantes.png'
 import valorImage from './assets/valor.png'
 import contratoImage from './assets/contrato.png'
+import cnpjImage from './assets/cpnj.png'
 import popuImage from './assets/ubs.png'
 import marquesImage from './assets/marques.png'
 import { Cards } from './components/cards/Cards'
@@ -14,8 +15,8 @@ export function App() {
   const [dadosPopulacao, setDadosPopulacao] = useState(5300)
   const [dadosContrato, setDadosContrato] = useState(5300)
   const [dadosValorAnual, setDadosValorAnual] = useState(5300)
-  const [dadosEmpresa, setDadosEmpresa] = useState()
-  const [dadosDescricao, setDadosDescricao] = useState()
+  const [dadosEmpresa, setDadosEmpresa] = useState('MARQUES CONSULT')
+  const [dadosDescricao, setDadosDescricao] = useState('e-SUS BPA ONLINE e-SUS ANALYTICS SIGAH 2.0')
   const [nomes, setNome] = useState()
 
   function receberDados(dados) {
@@ -30,6 +31,7 @@ export function App() {
   }
   function atualizarDados(dados) {
     setNome(dados)
+    // alert(dados)
     return dados
   }
 
@@ -42,7 +44,7 @@ export function App() {
             <Cards title={'UBS'} cardImages={popuImage} width='w-1/2' result={dadosUbs} />
             <Cards title={'População'} cardImages={ubsImage} width='w-1/2' result={dadosPopulacao} />
           </div>
-          <MapPe dadosOBJ={receberDados} recDados={nomes} />
+          <MapPe dadosOBJ={receberDados}  recDados={nomes} />
         </div>
         <div>
           <div className="mt-5 w-[50vw] h-full flex flex-col ">
@@ -60,7 +62,7 @@ export function App() {
               <div className='flex my-2 flex-col '>
                 <Cards title={'Fim do Contrato'} result={dadosContrato} cardImages={contratoImage} width='w-[25vw]' />
                 <Cards title={'Valor Anual'} result={dadosValorAnual} cardImages={valorImage} width='' />
-                <Cards title={''} cardImages={ubsImage} width='' result={''} />
+                <Cards title={'CNPJ'} cardImages={cnpjImage} width='' result={'00000-0'} />
               </div>
               <div className='border-gray-600 border-y shadow-md bg-slate-600 w-1/2 rounded-xl shadoe-md my-5 bg-opacity-40 flex justify-center items-center'>
                 <img src={marquesImage} className='' width={350} alt="" />

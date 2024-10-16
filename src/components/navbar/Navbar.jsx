@@ -7,6 +7,7 @@ export function Navbar({ cidadeSelecionada }) {
     const [inputValue, setInputValue] = useState('');
     const [filteredSuggestions, setFilteredSuggestions] = useState([]);
     const refInput = useRef();
+    const refDiv = useRef();
 
     useEffect(() => { //* executa assim que a pagina renderizar 
         const fetchData = async () => { //* busca no jason as cidades
@@ -38,9 +39,13 @@ export function Navbar({ cidadeSelecionada }) {
     const showSuggestions = (value) => {
 
         setInputValue(value)
+        alert
+        refDiv.current.classList.remove('hidden')
 
         if (value.length === 0 ) {
+            refDiv.current.className = 'hidden'
             refInput.current.className = 'rounded-full text-gray-600 z-50 outline-none border-2 hover:border-blue-400   h-8 w-60 bg-opacity-30 mx-11 px-4'
+            refInput.current.value =''
             setFilteredSuggestions([]);
             return;
         }
@@ -55,19 +60,22 @@ export function Navbar({ cidadeSelecionada }) {
     };
 
     const handleSuggestionClick = (suggestion) => {
-        refInput.current.className = 'rounded-full text-gray-600 z-50 outline-none border-2 hover:border-blue-400   h-8 w-60 bg-opacity-30 mx-11 px-4'
-        refInput.current.value = ''
+        refInput.current.className = 'rounded-full text-gray-600 z-50 outline-none border-2 hover:border-blue-400  h-8 w-60 bg-opacity-30 mx-11 px-4'
         setFilteredSuggestions([]);
         cidadeSelecionada(() => cidadeSelecionada(suggestion))
+        refInput.current.value = ''
+        refDiv.current.className = 'hidden'
+
     }
 
     return (
         <div>
+            <div onClick={()=> showSuggestions('')} ref={refDiv} className='bg-black h-screen w-screen hidden bg-opacity-0 absolute '></div>
             <nav className="flex items-center justify-between px-1 py-2 shadow-lg bg-gray-700 w-full">
                 <img src={logoMarques} alt="Logo" width="150px" />
                 <div className="flex-col flex items-center">
                     <div className="search-container" style={{ position: 'relative', width: '300px' }}>
-                        <input onBlur={() => showSuggestions('')}
+                        <input 
                             className="text-gray-600 border-2 hover:border-blue-400 z-50 outline-none rounded-full h-8 w-60 bg-opacity-30 mx-11 px-4"
                             type="text"
                             ref={refInput}
@@ -76,7 +84,7 @@ export function Navbar({ cidadeSelecionada }) {
                             placeholder="Pesquisar..."
                         />
                         {filteredSuggestions.length > 0 && (
-                            <div 
+                            <div
                             className="text-sm min-w-[240px] max-w-[240px] shadow-md max-h-52 overflow-x-hidden absolute bg-white border translate-x-[44px] rounded-b-xl">
                                 {filteredSuggestions.map((suggestion, index) => (
                                     <div
